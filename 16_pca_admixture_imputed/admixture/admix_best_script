@@ -1,0 +1,9 @@
+
+cd /staging/leuven/stg_00092/HAM_TSP_Isaac/samples_with_exceptions/qc_feb_24_2023/16_pca_admixture_imputed/admixture
+
+
+
+admixture pruned_merged.bed 3 -s 123 
+
+#for K in 3; \
+#do admixture --cv pruned_no_amr.bed $K -j8 -s 123 --supervised | tee /staging/leuven/stg_00092/HAM_TSP_Isaac/samples_with_exceptions/qc_feb_24_2023/13_admixture/run_with_htlv_and_1kg/log_merged_best_${K}.out ; done
