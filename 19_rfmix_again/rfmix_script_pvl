@@ -1,0 +1,14 @@
+for chr in $(seq 15 22); do
+	rfmix -r 1kg_hg38//chr${chr}_1kg38_filtered.recode.vcf.gz -f htlv/pvl_only_chr${chr}.vcf.gz -m all_hg38_samples.map -g genetic.map --chromosome=$chr -e 1 -o pvl_rf_ancsetry_${chr} ;
+
+done
+
+
+
+#for chr in $(seq 22 22); do
+ #       rfmix -r 1kg_hg38/chr${chr}_1kg38_filtered.recode.vcf.gz -f htlv/renamed_chr${chr}.vcf.gz -m all_hg38_samples.map -g genetic.map --chromosome=$chr -e 1 -o full_rf_ancsetry_${chr} ;
+
+#done
+
+
+#../14_imp_phasing/1kg_hg38_phased/ALL.chr${chr}.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.vcf.gz
