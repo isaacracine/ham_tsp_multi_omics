@@ -1,0 +1,22 @@
+SCHEME STDERR
+AVERAGEFREQ ON
+MINMAXFREQ ON
+GENOMICCONTROL OFF
+
+# First cohort
+MARKER   SNP
+ALLELE   A1 A2
+EFFECT   BETA
+STDERR   SE
+PVALUE   P
+WEIGHT   N
+PROCESS  /staging/leuven/stg_00092/HAM_TSP_Isaac/samples_with_exceptions/qc_feb_24_2023/45_meta_analysis/input/japanese_ss_hg38.txt
+
+# Second cohort
+PROCESS  /staging/leuven/stg_00092/HAM_TSP_Isaac/samples_with_exceptions/qc_feb_24_2023/45_meta_analysis/input/ham_regenie_ss_hg38.txt
+
+# Save output
+OUTFILE  /staging/leuven/stg_00092/HAM_TSP_Isaac/samples_with_exceptions/qc_feb_24_2023/45_meta_analysis/output/meta_results  .tbl
+
+ANALYZE
+QUIT
