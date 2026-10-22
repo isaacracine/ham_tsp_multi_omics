@@ -1,0 +1,4 @@
+for chr in $(seq 2 22); do
+	rfmix -r 1kg_hg38//chr${chr}_1kg38_filtered.recode.vcf.gz -f htlv/renamed_chr${chr}_no_fam.vcf.gz -m all_hg38_samples.map -g genetic.map --chromosome=$chr -e 1 -o full_rf_ancsetry_${chr}_no_fam ;
+
+done
