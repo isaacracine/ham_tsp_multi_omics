@@ -1,0 +1,4 @@
+name: py_popgen
+channels:
+  - defaults
+prefix: /data/leuven/344/vsc34483/miniconda3/envs/py_popgen

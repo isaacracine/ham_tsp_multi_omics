@@ -1,0 +1,31 @@
+name: regenie_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_kmp_llvm
+  - boost-cpp=1.74.0=h75c5d50_8
+  - bzip2=1.0.8=h7f98852_4
+  - icu=70.1=h27087fc_0
+  - libblas=3.9.0=16_linux64_openblas
+  - libgcc-ng=12.2.0=h65d4601_19
+  - libgfortran-ng=12.2.0=h69a702a_19
+  - libgfortran5=12.2.0=h337968e_19
+  - liblapack=3.9.0=16_linux64_openblas
+  - libopenblas=0.3.21=pthreads_h78a6416_3
+  - libsqlite=3.40.0=h753d276_1
+  - libstdcxx-ng=12.2.0=h46fd767_19
+  - libzlib=1.2.13=h166bdaf_4
+  - llvm-openmp=16.0.3=h4dfa4b3_0
+  - mkl=2023.1.0=h84fe81f_48680
+  - ncurses=6.3=h27087fc_1
+  - readline=8.2=h8228510_1
+  - regenie=3.2.6=h2b233e7_0
+  - sqlite=3.40.0=h4ff8645_1
+  - tbb=2021.8.0=hdb19cb5_0
+  - xz=5.2.6=h166bdaf_0
+  - zlib=1.2.13=h166bdaf_4
+  - zstd=1.5.2=h3eb15da_6
+prefix: /data/leuven/344/vsc34483/miniconda3/envs/regenie_env

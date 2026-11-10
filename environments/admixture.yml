@@ -1,0 +1,7 @@
+name: admixture
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - admixture=1.3.0=0
+prefix: /data/leuven/344/vsc34483/miniconda3/envs/admixture
